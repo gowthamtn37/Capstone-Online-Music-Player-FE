@@ -1,0 +1,14 @@
+/* @import url(./global.css); */
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+.screen-container {
+  background-color: rgb(255, 255, 255);
+  width: calc(100% - 150px);
+  height: 100vh;
+  border-radius: 50px;
+  display: flex;
+}
