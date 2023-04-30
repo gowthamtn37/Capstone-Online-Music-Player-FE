@@ -13,7 +13,7 @@ export function Sidebar() {
   const navigate = useNavigate();
   function logout() {
     localStorage.clear();
-    navigate("/");
+    navigate("/login");
   }
   return (
     <div className="sidebar-container">
@@ -59,7 +59,7 @@ export function Sidebar() {
           <IconButton>
             <WhatshotIcon />
           </IconButton>
-          Trending
+          Trend
         </Button>
         <Button color="secondary" variant="text" onClick={() => navigate("/")}>
           <IconButton>
@@ -75,7 +75,7 @@ export function Sidebar() {
           <IconButton>
             <FavoriteIcon />
           </IconButton>
-          Favourites
+          Liked
         </Button>
         <Button
           color="secondary"

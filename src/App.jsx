@@ -14,6 +14,8 @@ import { Signup } from "./Signup";
 import { ForgetPassword } from "./ForgetPassword";
 import { VerifyOTP } from "./VerifyOTP";
 
+import { loginEndpoint } from "./spotify";
+
 function App() {
   return (
     <div className="main-body">
@@ -34,3 +36,11 @@ function App() {
 }
 
 export default App;
+
+function Spotify() {
+  return (
+    <div>
+      <a href={loginEndpoint}> click me</a>
+    </div>
+  );
+}
