@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./CSS/Player.css";
-import { API } from "./API";
+import { API } from "./Api";
 
 export function Player() {
   const [Player, setPlayer] = useState([]);
